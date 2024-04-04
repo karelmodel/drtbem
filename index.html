@@ -83,7 +83,7 @@
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item"> <a class="nav-link" href="#empresa">Empresa</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#beneficios">Benefícios</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#produtos">Produtos</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#">Qualidade</a></li>
               </ul>
             </div>
@@ -224,11 +224,11 @@
 
 <!--portfolio start-->
 
-<section id="galeria" class="position-relative bg-light">
+<section id="produtos" class="position-relative bg-light">
   <div class="container">
     <div class="row  text-center">
       <div class="col">
-        <h1>Galeria</h1>
+        <h1>Produtos</h1>
       </div>
     </div>
     <!-- / .row -->
@@ -239,19 +239,6 @@
 <section class="bg-light position-relative custom-pb-2">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <div class="portfolio-filter">
-          <button data-filter="" class="is-checked mb-3 mb-sm-0">Todas</button>
-          <button data-filter=".cat1" class="mb-3 mb-sm-0">Eventos</button>
-          <button data-filter=".cat2" class="mb-3 mb-sm-0">Projetos</button>
-          <button data-filter=".cat3">Marca</button>
-          <button data-filter=".cat4">Marketing</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="grid columns-3 row popup-gallery">
           <div class="grid-sizer"></div>
@@ -259,8 +246,8 @@
             <div class="portfolio-item position-relative overflow-hidden">
               <img class="img-fluid w-100" src="assets/images/portfolio/01.jpg" alt="">
               <div class="portfolio-title d-flex justify-content-between align-items-center">
-                <div> <small class="text-light mb-2">Branding</small>
-                  <h6><a class="btn-link text-white" href="portfolio-single.html">Web Development</a></h6>
+                <div> <small class="text-light mb-2">Eventos</small>
+                  <h6 class="text-white">Nome do evento aqui.</h6>
                 </div>
                 <a class="popup-img h2 text-white" href="assets/images/portfolio/large/01.jpg"> <i class="la la-plus"></i>
                 </a>
@@ -363,6 +350,7 @@
           <h4 class="mt-5">Endereço:</h4>
           <span>Road Wordwide Country</span>
         </div>
+        <br>
       </div>
       <div class="col-lg-4 col-md-6">
         <div>
@@ -370,6 +358,7 @@
           <h4 class="mt-5">Email</h4>
           <span>algumemail@gmail.com</span>
         </div>
+        <br>
       </div>
       <div class="col-lg-4 col-md-6">
         <div>
@@ -379,55 +368,6 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="container text-white">
-    <div class="row justify-content-center mb-5 text-center">
-      <div class="col-12 col-lg-8">
-        <div>
-          <h2 class="mt-4 mb-0">Mande uma mensagem</h2>
-          <p class="mb-0">Preencha o formulário e entraremos em contato o mais breve possível.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center text-center">
-      <div class="col-12 col-lg-10">
-          <form id="contact-form" class="row" method="post" action="php/contact.php">
-            <div class="messages"></div>
-            <div class="form-group col-md-6">
-              <input id="form_name" type="text" name="name" class="form-control" placeholder="Primeiro Nome" required="required" data-error="Nome é obrigatório.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-6">
-              <input id="form_name1" type="text" name="name" class="form-control" placeholder="Último Nome" required="required" data-error="Nome é obrigatório.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-6">
-              <input id="form_email" type="email" name="email" class="form-control" placeholder="E-mail" required="required" data-error="E-mail válido é obrigatório.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-6">
-              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefone" required="required" data-error="Telefone é obrigatório.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-12">
-              <input id="form_subject" type="tel" name="subject" class="form-control" placeholder="Assunto" required="required" data-error="Assunto é obrigatório.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-12">
-              <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="3" required="required" data-error="Mensagem é obrigatória"></textarea>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="col-md-12 text-center mt-4">
-              <button class="btn btn-primary"><span>Enviar mensagem</span>
-              </button>
-            </div>
-          </form>
-    </div>
-    </div>
-    
   </div>
 </section>
 
@@ -445,34 +385,6 @@
     </svg>
   </div>
   <div class="container mt-10">
-    <div class="row">
-      <div class="col-12 col-lg-12 col-xl-12">
-        <div class="row">
-          <div class="col-12 col-sm-12 navbar-dark">
-            <h5 class="mb-12 text-white">DRT Bem</h5>
-            <ul class="navbar-nav list-unstyled mb-0">
-              <li class="mb-3 nav-item"><a class="nav-link" href="about-us-1.html">About</a>
-              </li>
-              <li class="mb-3 nav-item"><a class="nav-link" href="product-grid.html">Shop</a>
-              </li>
-              <li class="mb-3 nav-item"><a class="nav-link" href="faq.html">Faq</a>
-              </li>
-              <li class="mb-3 nav-item"><a class="nav-link" href="blog-card.html">Blogs</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-12 col-sm-6">
-            <a class="footer-logo text-white h2 mb-0" href="index.html">
-              <span class="fw-bold">DRT</span> Bem
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="row text-white text-center mt-8">
       <div class="col">
         <hr class="mb-8">Copyright DRT Bem 2024 - Site por <u><a class="text-white" href="https://attosmktnegocios.com.br/">Attos Marketing & Negócios</a></u> | Todos os direitos reservados.</div>
