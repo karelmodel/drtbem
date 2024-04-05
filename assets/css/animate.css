@@ -8,6 +8,14 @@
  * Copyright (c) 2019 Daniel Eden
  */
 
+ @font-face{
+  font-family:'Convergence';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(/assets/fonts/Convergence-Regular.ttf);
+}
+
 @-webkit-keyframes bounce {
   from,
   20%,
