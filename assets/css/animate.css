@@ -10,10 +10,18 @@
 
  @font-face{
   font-family:'Convergence';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
   font-display: auto;
-  src: url(/assets/fonts/Convergence-Regular.ttf);
+  src: url('../fonts/Convergence-Regular.ttf') format("truetype"),
+  src: url('../fonts/Convergence-Regular.woff2') format('woff2'),
+       url('../fonts/Convergence-Regular.woff') format('woff');
+}
+
+@font-face {
+  src: url('/fonts/mycustomfont.woff2') format('woff2'),
+       url('/fonts/mycustomfont.woff') format('woff');
+
 }
 
 @-webkit-keyframes bounce {
